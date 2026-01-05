@@ -18,3 +18,20 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nice_nano_v2
+    shield: tester_pro_micro
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME="LEN13ABCDEFGH"
+    artifact-name: len13_test_pro_micro
+  - board: nice_nano_v2
+    shield: tester_pro_micro
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME="LEN14ABCDEFGHI"
+    artifact-name: len14_test_pro_micro
+  - board: nice_nano_v2
+    shield: tester_pro_micro
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME="LEN15ABCDEFGHIJ"
+    artifact-name: len15_test_pro_micro
+  - board: nice_nano_v2
+    shield: tester_pro_micro
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME="LEN16ABCDEFGHIJK"
+    artifact-name: len16_test_pro_micro
